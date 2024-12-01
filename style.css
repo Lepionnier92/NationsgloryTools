@@ -1,0 +1,121 @@
+header{
+    background-color: #39304d;
+}
+body{
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #221839;
+    margin: 0;
+    color: #fff;
+}
+main{
+    background-image: url('src/images/bg.png');
+    background-position: center;
+    background-repeat: inherit;
+    background-size: cover;
+
+}
+footer {
+    background-color: #0b0b0f;
+    color: #fff;
+    border-top: 1px solid #171717;
+    display: grid; /* Active le mode grille */
+    grid-template-columns: repeat(1, 1fr); /* Crée 5 colonnes de taille égale */
+    gap: 20px; /* Ajoute un espace entre les colonnes */
+    padding: 0px; /* Ajoute de l'espace autour du contenu */
+    text-align: center; /* Centre le contenu à l'intérieur des colonnes */
+    align-items: center;
+}
+
+.logoh{
+    height: 40px;
+}
+.header {
+    display: grid; /* Active le mode grille */
+    grid-template-columns: repeat(2, 1fr); /* Crée 5 colonnes de taille égale */
+    gap: 20px; /* Ajoute un espace entre les colonnes */
+    padding: 20px; /* Ajoute de l'espace autour du contenu */
+}
+
+.header div {
+    text-align: center; /* Centre le contenu à l'intérieur des colonnes */
+}
+
+.header p {
+    margin: 5px 0px; /* Ajoute un petit espace entre les paragraphes */
+    margin-right: -50px;
+}
+
+.header img {
+    max-width: 100%; /* Ajuste les images pour qu'elles ne débordent pas */
+    height: auto;
+}
+
+.header2 {
+    display: grid; /* Active le mode grille */
+    grid-template-columns: repeat(2, 1fr); /* Crée 5 colonnes de taille égale */
+    gap: 20px; /* Ajoute un espace entre les colonnes */
+    padding: 0px; /* Ajoute de l'espace autour du contenu */
+}
+
+.header2 div {
+    text-align: center; /* Centre le contenu à l'intérieur des colonnes */
+}
+
+.header2 p {
+    margin: 5px 0px; /* Ajoute un petit espace entre les paragraphes */
+    margin-left: -100px;
+    margin-right: -50px;
+    width: 50px;
+    color: white;
+}
+
+.header2 img {
+    max-width: 100%; /* Ajuste les images pour qu'elles ne débordent pas */
+    height: 40px;
+    margin-left: -100px;
+
+}
+.account{
+    height: 40px;
+    width: 40px;
+}
+.logo_WebN{
+
+    display: inline-block;
+    background: linear-gradient(to left, #6864FF, #33CEFF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.ng_logo{
+    display: grid; /* Active le mode grille */
+    grid-template-columns: repeat(1, 1fr); /* Crée 5 colonnes de taille égale */
+    gap: 20px; /* Ajoute un espace entre les colonnes */
+    padding: 0px; /* Ajoute de l'espace autour du contenu */
+    text-align: center; /* Centre le contenu à l'intérieur des colonnes */
+    align-items: center;
+}
+.ng_logo img {
+    padding-left: 28%;
+    
+}
+.btn-hero {
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.875rem;
+    width: 15rem;
+    text-transform: uppercase;
+    padding: .5rem 1.5rem;
+    border-radius: .375rem;
+    background: linear-gradient(90deg, #6864FF 0%, #32CEFF 100%);
+    box-shadow: 0 2px 0 0 rgba(255, 255, 255, .4) inset, 0 2px 0 0 #1953a4, 0 0 0 8px rgba(255, 255, 255, .05);
+    color: #164689;
+    border-color: #6e76ee;
+    align-items: center;
+    margin-left: 800px;
+    margin-top: 100px;
+    margin-bottom: 262px;
+}
